@@ -1,19 +1,19 @@
-# \<odg-img>
+# \<lazy-image>
 
 This webcomponent follows the [open-wc](https://github.com/open-wc/open-wc) recommendation.
 
 ## Installation
 ```bash
-npm i odg-img
+npm i lazy-image
 ```
 
 ## Usage
 ```html
 <script type="module">
-  import 'odg-img/odg-img.js';
+  import 'lazy-image/lazy-image.js';
 </script>
 
-<odg-img></odg-img>
+<lazy-image src='https://placeimg.com/640/480/any' alt='alternative text' naturalWidth='640' naturalHeight='480'></lazy-image>
 ```
 
 ## Testing using karma (if applied by author)
