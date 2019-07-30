@@ -46,10 +46,6 @@ export class LazyImage extends LitElement {
     `;
   }
 
-  static get containerName() {
-    return 'img-container';
-  }
-
   static get properties() {
     return {
       src: { type: String },
